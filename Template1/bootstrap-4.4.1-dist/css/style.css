@@ -1,0 +1,127 @@
+html {
+  font-size: 62.5%;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 1.7rem;
+}
+
+.bgimg {
+  background-image: url("../../img/lycs-architecture-U2BI3GMnSSE-unsplash.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 650px;
+}
+
+.hearderset {
+  padding-top: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.hearderset h2 {
+  font-size: 4rem;
+}
+
+.hearderset h1 {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.ourservices {
+  padding: 100px 0 60px;
+  height: auto;
+}
+
+.ourservices h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.rowsetting {
+  margin: 80px 0px;
+}
+
+.rowsetting h2 {
+  font-size: 3rem;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+.rowsetting p {
+  padding: 1rem;
+  color: #6c757d;
+  font-size: 1.5rem;
+}
+
+.imgsetting {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+.fa-shopping-cart, .fa-desktop, .fa-lock {
+  margin-top: 2rem;
+}
+
+.portfolio {
+  height: auto;
+  width: 100%;
+  padding: 10rem 0 5rem;
+}
+
+.portfolio h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 4rem;
+}
+
+.ourteam {
+  height: auto;
+  padding: 10rem 0rem 6rem;
+  height: 100%;
+}
+
+.ourteam h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.teamsetting {
+  margin-top: 5rem !important;
+}
+
+.footer {
+  height: auto;
+}
+
+.footer h6 {
+  line-height: 50px;
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 574px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 479) {
+  html {
+    font-size: 40%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
