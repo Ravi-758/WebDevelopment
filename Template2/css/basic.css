@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th{font:14px/22px Arial, Helvetica, sans-serif;color:#3b3b3b;text-decoration:none;}
+
+body{background: url(../images/bg.gif) repeat;margin:0;line-height:1; overflow-x:hidden;}
+
+a,a:link,a:visited{font:12px Arial, Helvetica, sans-serif;color:#fff;text-decoration:none}
+
+a:hover,a:focus{text-decoration:underline;}
+
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+
+h1{font:25px Arial, Helvetica, sans-serif; color:#08358a;}
+
+h2{font:20px Arial, Helvetica, sans-serif; color:#f5f5f5;}
+
+h3{font:bold 22px Arial, Helvetica, sans-serif; color:#08358a;}
+
+h4{font:19px Arial, Helvetica, sans-serif; color:#08358a;}
+
+html,body,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,del,img,ins,kbd,q,s,small,strike,strong,tt,u,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,th,td,article,aside,details,embed,figure,figcaption,header,hgroup,menu,output,ruby,summary,time,mark,audio,video{border:0;vertical-align:middle;border-collapse:collapse;border-spacing:0;text-align:left;margin:0;padding:0}
+
+command,datalist,keygen,mark,meter,progress,rp,rt,ruby,time,wbr{display:inline}
+
+img{border:0;-ms-interpolation-mode:bicubic}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+
+ol,ul{list-style:none}
+
+table{border-collapse:collapse;border-spacing:0}
+
+::selection{color:#fff;background:#000000}
+
+::-moz-selection{color:#fff;background:#000000}
+
+::-webkit-selection{color:#fff;background:#000000}
+
+::-o-selection{color:#fff;background:#000000}
+
+::-ms-selection{color:#fff;background:#000000}
+
+img,div,a,input{behavior:url(../iepngfix.htc)}
+
+input[type="text"]:focus,input[type="password"]:focus{outline:none}
+
+textarea{overflow:auto;outline:none}
+
+label,input[type="button"],input[type="submit"],button{cursor:pointer}
+
+input[type="radio"]{vertical-align:middle}
+
+input[type="checkbox"]{vertical-align:baseline}
+
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;overflow:visible}
+
+svg:not(:root){overflow:hidden}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+html{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-o-text-size-adjust:100%;height: 100%;}
+
+*{padding:0;margin:0}
+
+
+
+header{
+    width: 100%;
+    float: left;
+}
+.section1{
+    background-color: #1A1A1A;
+    width: 100%;
+    float: left;
+    height: 96px;
+    position: relative;
+}
+.section1 a{
+   position: absolute;
+    text-align: center;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.section2{
+    width: 100%;
+    float: left;
+    background-image: url(../images/fish-salmon.png);
+    background-position: center;
+    height: 110px;
+    text-align: center;
+}
+.section2 ul{
+    float: none;
+    display: inline-block;
+    margin-top:28px;
+}
+.section2 ul li{
+    float: left;
+    font: 14px/20px 'robotoregular';
+    margin: 24px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.section3{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 110px 0px 0px 0px;
+}
+/*.section3::before{
+    background-image: url(../images/Group%2017.png);
+    content: ' ';
+    position: absolute;
+    right: 0;
+    top: -380px;
+       width: 638px;
+    height: 914px;
+    z-index: -1;*/
+}
+/*.section3 h1{
+    text-align: center;
+    color: black;
+    font: 36px/40px 'robotoblack';
+    padding-bottom: 10px;
+    position: relative;
+}*/
+/*.section3 h1::after{
+    position: absolute;
+    content: ' ';
+    width: 73px;
+    height: 3px;
+    background-color: #3A7692;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+ */   
+}
+/*.section3 p{
+    color: #878686;
+    font: 24px/30px 'robotoregular';
+    text-align: center;
+    margin-top: 40px;*/
+}
+.svg1{
+    float: none;
+    width: 17%;
+    display: inline-block;
+}
+.svg1 svg{
+    float: left;
+}
+.svg1 p{
+    margin-top: 0px;
+    float: left;
+    padding: 10px 14px;
+}
+.sec3{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 30px 0px;
+}
+.svg2{
+      float: none;
+    width: 17%;
+    display: inline-block;
+}
+.sec31{
+     width: 100%;
+    float: left;
+    text-align: center;
+    margin: 0px 12px;
+}
+.sec31 .svg1{
+    width: 21%;
+    display: inline-block;
+    float: none;
+}
+.sec3 .svg1{
+      width: 13%;
+    display: inline-block;
+    float: none;
+}
+.section4{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    background: url(../images/Group%2017.png) no-repeat top -400px right -560px ,url(../images/Group%2017.png) no-repeat left -731px bottom -569px;
+}
+.sec4{
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+}
+.samediv4{
+    width: 300px;
+    float: left;
+    margin: 1px 50px;
+  filter: drop-shadow(0px 3px 9px rgba(0,0,0,0.16));
+background-color: #ffffff;
+    height: 480px;
+}
+.sec4text{
+    text-align: center;
+}
+.sec4text p{
+    font: 18px/25px 'robotoblack';
+    text-align: center;
+    margin-top: 20px;
+}
+.sec4text ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+.sec4text ul li{
+    text-align: center;
+    padding: 7px;
+}
+.sec4a{
+        width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.sec4a a{
+    color: white;
+    font: 14px/20px 'robotoregular';
+        padding: 16px 41px;
+    background-color: #3A7692;
+}
+.section5{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+/*.section5::before{
+     background-image: url(../images/Group%2017.png);
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+       width: 638px;
+    height: 914px;
+    z-index: -1;
+}*/
+.head3{
+    width: 100%;
+    float: left;
+}
+.head3 h1{
+    text-align: center;
+}
+.head3 h1::after{
+     position: absolute;
+    content: ' ';
+    width: 73px;
+    height: 3px;
+    background-color: #3A7692;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+}
+.head3 p{
+        color: #878686;
+    font: 24px/30px 'robotoregular';
+    text-align: center;
+    margin-top: 80px;
+}
+.head5{
+   max-width: 1050px;
+    margin: auto;
+}
+.head5h1 h1{
+    font: 36px/40px 'robotoblack';
+    color: black;
+    position: relative;
+   
+}
+.head5h1 h1::after{
+      position: absolute;
+    content: ' ';
+    width: 73px;
+    height: 3px;
+    background-color: #3A7692;
+        top: 70px;
+    left: 0;
+}
+.head5h1{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.form{
+    width: 100%;
+    float: left;
+}
+form{
+    width: 100%;
+    float: left;
+    filter: drop-shadow(0.927px 2.853px 6px rgba(0,0,0,0.16));
+background-color: #ffffff;
+    padding: 50px;
+}
+.inputdiv{
+    width: 49%;
+    float: left;
+        margin: 0px 20px 16px 0px;
+}
+.input{
+    padding: 0px 16px;
+    height: 46px;
+    float: left; 
+    width: 100%; 
+    margin: 0px;
+    font: 20px/40px 'robotolight';
+}
+.biginput{
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+}
+.binput{
+    width: 100%; 
+    float: left; 
+    margin: 0px; 
+    padding: 15px 16px;
+}
+.div30{
+    width: 60%;
+    float: left;
+}
+.input30{
+        padding:10px 5px; 
+    float: left; 
+    width: 49%; 
+   
+}
+.div20{
+    width: 40%;
+    float: left;
+}
+.input20{
+    padding:10px 5px; 
+    float: left; 
+    width: 100%; 
+    margin: 0px;
+}
+.rightdiv{
+    margin-right: 0;
+}
+.labeldiv{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+.labeldiv label{
+    font: 20px/30px 'robotomedium';
+}
+.submitbtn{
+    padding: 15px 70px;
+    background-color: #3A7692;
+    color: white;
+    font: 20px/25px 'robotoregular';
+    float: left;
+    border: none;
+}
+.submit{
+    float: left;
+    margin-top: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+.inputdiv.rightdiv input:first-child{
+    margin-right: 10px;
+}
+.inputdiv input::placeholder{
+    font: 20px/40px 'robotolight';
+}
+.biginput input{
+    font: 20px/25px 'robotolight';
+}
+.submit input{
+    font: 20px/25px 'robotoregular';
+}
+.inputdiv.rightdiv input{
+    padding: 0px 16px;
+    height: 46px;
+}
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('../fonts/roboto-black-webfont.eot');
+    src: url('../fonts/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-black-webfont.woff') format('woff'),
+         url('../fonts/roboto-black-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;  font-style: normal;
+}
