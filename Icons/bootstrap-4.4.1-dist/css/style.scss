@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+.navbar-darik{
+    background-color: 1d1d1d;
+}
+.color li{
+    padding: 10px;
+}
+.color li a:hover{
+    color: #0085cc;
+}
+.color li a{
+    color: white;
+}
+
+.bgcolor{
+    background-color: #0085cc;
+    h1{
+        padding:18px 34px;
+        color: white;
+        font-size: 16px;
+        margin-top: 11px;
+        img{
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+}
+// font-size
+.navbar-nav .nav-link{
+    font-size:14px;
+}
+.display6 a{
+    font-size: 16px;
+}
+.section2{
+    h2{
+        font-size: 36px;
+    }
+}
+.sizesection{
+    h3{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        font-style: normal;
+        margin-left: 16px;
+    }
+    p{
+        font-size: 14px;
+        margin-left: 16px;
+    }
+}
+.sizefunction{
+    h3{
+        font-size: 18px;
+        margin-left: 16px;
+    }
+    p{
+        font-size: 14px;
+        margin-left: 16px;
+    }
+}
+.h3size{
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.packmargin{
+    h1{
+        font-size: 36px;
+    }
+}
+.size1{
+    font-size: 36px;
+}
+footer{
+    h3{
+        font-size: 24px;
+    }
+}
+// font-size ned
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    padding: 0;
+    margin-left: 30px;
+}
+.carousel-control-prev{
+    left: -140px;
+    display: none;
+}
+.carousel-control-next{
+    display: none;
+    right: -140px;
+}
+.section1{
+    padding: 71px 71px;
+    background-color: #1d1d1d;
+    border-radius: 50px;
+}
+.bodr{
+    border-radius: 15px;
+}
+.carousel-indicators{
+    bottom: -70px;
+    li{
+        width: 18px;
+        height: 18px;
+        border-radius: 30px;
+        border: none;
+    }
+}
+.section3{
+    padding:78px 50px;
+    background-color: #1d1d1d;
+    border-radius: 16px;
+}
+// .card{
+//     background: transparent;
+// }
+// .pdiv{
+//     padding: 48px;
+//     background-color: #1d1d1d;
+//     border-radius: 24px 24px 0px 0px;
+// }
+.section4{
+    background-color: #1d1d1d;
+    border-radius: 15px 15px 0px 0px;
+}
+.dif{
+    background-color: #1d1d1d;
+    padding: 40px;
+    border-radius: 15px 15px 0px 0px;
+}
+.package{
+    background-color: #1d1d1d;
+    padding: 3px 37px;
+    border-radius: 10px;
+}
+.packmargin{
+    margin-top: 23px;
+}
+// footer part
+footer{
+    padding: 50px;
+    background-color: #1d1d1d;
+}
+.bgc a{
+    margin-top: 10px;
+    color: white;
+}
+.bgc a:hover{
+    color: #0085cc;
+}
+.navbar-toggler-icon{
+    background-color: black;
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+// showcase css start
+
+.showcase{
+    h3{
+        font-size: 36px;
+    }
+    p{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 24px;
+        margin-top: 70px;
+    }
+}
+.ullist{
+    font-size: 24px;
+    margin-left: 21px;
+}
+.pur{
+    background-color: #1d1d1d;
+}
+.buy{
+    li h3{
+        font-size: 24px;
+        line-height: 59px;
+    }
+    li{
+        font-size: 16px;
+    }
+}
+.btndiv{
+    a{
+        background-color: #0085cc;
+        padding: 20px 494px;
+        border-radius: 15px;
+        font-size: 24px;
+    }
+}
+.blackfooter{
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: 12px;
+}
+.section1{
+    margin-top: 100px;
+}
+.packsize{
+    padding-top: 17px;
+}
+.showcase{
+    margin-top: 110px;
+}
+
+@media screen and (max-width:1200px){
+    .dif{
+        height: 322px;
+    }
+    .packmargin{
+        margin-top: 11px;
+    }
+    .size1{
+        font-size: 29px;
+    }
+    .btndiv a{
+        padding: 20px 389px;
+    }
+    .packmargin h1{
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width:1025px){
+    .size1{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:991px){
+    .btndiv a{
+        padding: 16px 270px;
+    }
+    .navbar-nav{
+        margin-left: 12px;
+    }
+    .color{
+        margin-left: 12px;
+    }
+    .packmargin h1{
+        margin-top: 12px;
+    }
+    .carousel-indicators li{
+        width: 14px;
+        height: 14px;
+    }
+}
+@media screen and (max-width:767px){
+    .navbar-nav{
+        margin-left: 12px;
+    }
+    .bgcolor{
+        text-align: center;
+    }
+    .navbar{
+        padding: 7px;
+    }
+    .navbar-toggler{
+        margin-right: 15px;
+    }
+    .buy li h3{
+        line-height: 37px;
+    }
+    .btndiv a{
+        padding: 12px 177px;
+    }
+    .section3{
+        padding: 28px 28px;
+    }
+    .section1{
+        padding: 14px 37px;
+        border-radius: 28px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+}
+@media screen and (max-width:601px){
+    .packsize p{
+        font-size: 14px;
+    }
+    .packmargin h1{
+        font-size: 40px;
+    }
+    .navbar{
+        padding: 10px 15px;
+    }
+    .navbar-brand{
+        margin-left: 15px;
+    }
+    .section2 p{
+        font-size: 15px;
+    }
+    .section2 h2{
+        font-size: 30px;
+    }
+    .packmargin h1{
+        font-size: 30px;
+    }
+    .packsize p{
+        font-size: 12px;
+    }
+    .packsize h3{
+        font-size: 25px;
+    }
+    .btndiv a{
+        font-size: 22px;
+        padding: 12px 157px;
+    }
+    .btndiv a{
+        font-size: 21px;
+        padding: 10px 133px;
+    }
+    .container{
+        width: 93%;
+    }
+}
+@media screen and (max-width:480px){
+}
+@media screen and (max-width:450px){
+    .section3{
+        padding: 11px 11px;
+    }
+}		
+@media screen and (max-width:425px){
+    .packmargin h1{
+        font-size: 23px;
+        margin-top: 3px;
+    }
+    .packsize h3{
+        font-size: 22px;
+    }
+    .packsize p{
+        font-size: 11px;
+    }
+    .packmargin{
+        margin-top: 25px;
+    }
+    .bodr{
+        border-radius: 0px;
+    }
+    .btndiv a{
+        font-size: 20px;
+    padding: 7px 112px;
+    }
+    .section3{
+        padding: 15px 9px;
+    }
+    .section1{
+        padding: 20px 31px;
+        margin-top: 129px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .container{
+        width: 94%;
+    }
+}	
+@media screen and (max-width:375px){
+    .section2 h2{
+        font-size: 25px;
+    }
+    .section2 p{
+        font-size: 13px;
+    }
+    .packsize h3{
+        font-size: 20px;
+    }
+    .packsize p{
+        font-size: 9px;
+    }
+    .packmargin h1{
+        font-size: 20px;
+    }
+    .size1{
+        font-size: 27px;
+    }
+    .section1{
+        padding: 57px 30px;
+    }
+    .carousel-indicators li{
+        width: 13px;
+        height: 13px;
+    }
+    .section3{
+        padding: 10px 10px;
+    }
+    .btndiv a{
+        padding: 7px 70px;
+    }
+    .section1{
+        padding: 20px 30px;
+    }
+}
+@media screen and (max-width:320px){}
